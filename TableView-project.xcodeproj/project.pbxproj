@@ -66,14 +66,12 @@
 		D627A85A285A2B0B00408C5C /* TableView-project */ = {
 			isa = PBXGroup;
 			children = (
+				D627A87A285A2E3200408C5C /* Resources */,
+				D627A87B285A2E5400408C5C /* Sourses */,
 				D627A879285A2CE900408C5C /* CellTypes */,
 				D627A85B285A2B0B00408C5C /* AppDelegate.swift */,
 				D627A85D285A2B0B00408C5C /* SceneDelegate.swift */,
 				D627A85F285A2B0B00408C5C /* ViewController.swift */,
-				D627A861285A2B0B00408C5C /* Main.storyboard */,
-				D627A864285A2B0C00408C5C /* Assets.xcassets */,
-				D627A866285A2B0C00408C5C /* LaunchScreen.storyboard */,
-				D627A869285A2B0C00408C5C /* Info.plist */,
 				D627A86F285A2C0A00408C5C /* ContentArray.swift */,
 				D627A871285A2C0E00408C5C /* Images.swift */,
 			);
@@ -88,6 +86,24 @@
 				D627A877285A2CCE00408C5C /* ArrowCell.swift */,
 			);
 			path = CellTypes;
+			sourceTree = "<group>";
+		};
+		D627A87A285A2E3200408C5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D627A864285A2B0C00408C5C /* Assets.xcassets */,
+				D627A866285A2B0C00408C5C /* LaunchScreen.storyboard */,
+				D627A861285A2B0B00408C5C /* Main.storyboard */,
+				D627A869285A2B0C00408C5C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D627A87B285A2E5400408C5C /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CGLFK7WJHJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TableView-project/Info.plist";
+				INFOPLIST_FILE = "TableView-project/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -345,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CGLFK7WJHJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TableView-project/Info.plist";
+				INFOPLIST_FILE = "TableView-project/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
