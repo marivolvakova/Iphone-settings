@@ -90,8 +90,8 @@
 		D627A87B285A2E5400408C5C /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
-				D627A87D285A2FAD00408C5C /* Scenes */,
 				D627A87C285A2FA800408C5C /* App */,
+				D627A87D285A2FAD00408C5C /* Scenes */,
 			);
 			path = Sourses;
 			sourceTree = "<group>";
