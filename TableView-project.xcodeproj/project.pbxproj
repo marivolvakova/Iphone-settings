@@ -69,8 +69,6 @@
 				D627A87A285A2E3200408C5C /* Resources */,
 				D627A87B285A2E5400408C5C /* Sourses */,
 				D627A879285A2CE900408C5C /* CellTypes */,
-				D627A85B285A2B0B00408C5C /* AppDelegate.swift */,
-				D627A85D285A2B0B00408C5C /* SceneDelegate.swift */,
 				D627A85F285A2B0B00408C5C /* ViewController.swift */,
 				D627A86F285A2C0A00408C5C /* ContentArray.swift */,
 				D627A871285A2C0E00408C5C /* Images.swift */,
@@ -102,8 +100,26 @@
 		D627A87B285A2E5400408C5C /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
+				D627A87D285A2FAD00408C5C /* Scenes */,
+				D627A87C285A2FA800408C5C /* App */,
 			);
 			path = Sourses;
+			sourceTree = "<group>";
+		};
+		D627A87C285A2FA800408C5C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D627A85B285A2B0B00408C5C /* AppDelegate.swift */,
+				D627A85D285A2B0B00408C5C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D627A87D285A2FAD00408C5C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
