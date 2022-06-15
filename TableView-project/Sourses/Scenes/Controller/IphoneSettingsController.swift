@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class IphoneSettingsController: UIViewController {
 
     let tableView = UITableView(frame: .zero, style: .grouped)
     let cellContent = ContentArray()
