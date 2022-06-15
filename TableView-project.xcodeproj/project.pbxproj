@@ -13,11 +13,12 @@
 		D627A863285A2B0B00408C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D627A861285A2B0B00408C5C /* Main.storyboard */; };
 		D627A865285A2B0C00408C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D627A864285A2B0C00408C5C /* Assets.xcassets */; };
 		D627A868285A2B0C00408C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D627A866285A2B0C00408C5C /* LaunchScreen.storyboard */; };
-		D627A870285A2C0A00408C5C /* ContentArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A86F285A2C0A00408C5C /* ContentArray.swift */; };
+		D627A870285A2C0A00408C5C /* IphoneSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A86F285A2C0A00408C5C /* IphoneSettingsModel.swift */; };
 		D627A872285A2C0E00408C5C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A871285A2C0E00408C5C /* Images.swift */; };
 		D627A874285A2C9700408C5C /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A873285A2C9700408C5C /* NotificationCell.swift */; };
 		D627A876285A2CB200408C5C /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A875285A2CB200408C5C /* SwitchCell.swift */; };
 		D627A878285A2CCE00408C5C /* ArrowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A877285A2CCE00408C5C /* ArrowCell.swift */; };
+		D627A882285A312600408C5C /* IphoneSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A881285A312600408C5C /* IphoneSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +30,12 @@
 		D627A864285A2B0C00408C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D627A867285A2B0C00408C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D627A869285A2B0C00408C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D627A86F285A2C0A00408C5C /* ContentArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentArray.swift; sourceTree = "<group>"; };
+		D627A86F285A2C0A00408C5C /* IphoneSettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IphoneSettingsModel.swift; sourceTree = "<group>"; };
 		D627A871285A2C0E00408C5C /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		D627A873285A2C9700408C5C /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		D627A875285A2CB200408C5C /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
 		D627A877285A2CCE00408C5C /* ArrowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowCell.swift; sourceTree = "<group>"; };
+		D627A881285A312600408C5C /* IphoneSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,6 @@
 				D627A87A285A2E3200408C5C /* Resources */,
 				D627A87B285A2E5400408C5C /* Sourses */,
 				D627A879285A2CE900408C5C /* CellTypes */,
-				D627A86F285A2C0A00408C5C /* ContentArray.swift */,
 				D627A871285A2C0E00408C5C /* Images.swift */,
 			);
 			path = "TableView-project";
@@ -142,6 +143,8 @@
 		D627A880285A307100408C5C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D627A881285A312600408C5C /* IphoneSettings.swift */,
+				D627A86F285A2C0A00408C5C /* IphoneSettingsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,7 +227,8 @@
 				D627A85E285A2B0B00408C5C /* SceneDelegate.swift in Sources */,
 				D627A878285A2CCE00408C5C /* ArrowCell.swift in Sources */,
 				D627A874285A2C9700408C5C /* NotificationCell.swift in Sources */,
-				D627A870285A2C0A00408C5C /* ContentArray.swift in Sources */,
+				D627A882285A312600408C5C /* IphoneSettings.swift in Sources */,
+				D627A870285A2C0A00408C5C /* IphoneSettingsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
