@@ -66,6 +66,7 @@
 		D627A85A285A2B0B00408C5C /* TableView-project */ = {
 			isa = PBXGroup;
 			children = (
+				D627A879285A2CE900408C5C /* CellTypes */,
 				D627A85B285A2B0B00408C5C /* AppDelegate.swift */,
 				D627A85D285A2B0B00408C5C /* SceneDelegate.swift */,
 				D627A85F285A2B0B00408C5C /* ViewController.swift */,
@@ -75,11 +76,18 @@
 				D627A869285A2B0C00408C5C /* Info.plist */,
 				D627A86F285A2C0A00408C5C /* ContentArray.swift */,
 				D627A871285A2C0E00408C5C /* Images.swift */,
+			);
+			path = "TableView-project";
+			sourceTree = "<group>";
+		};
+		D627A879285A2CE900408C5C /* CellTypes */ = {
+			isa = PBXGroup;
+			children = (
 				D627A873285A2C9700408C5C /* NotificationCell.swift */,
 				D627A875285A2CB200408C5C /* SwitchCell.swift */,
 				D627A877285A2CCE00408C5C /* ArrowCell.swift */,
 			);
-			path = "TableView-project";
+			path = CellTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
