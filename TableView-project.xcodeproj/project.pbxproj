@@ -17,6 +17,7 @@
 		D627A872285A2C0E00408C5C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A871285A2C0E00408C5C /* Images.swift */; };
 		D627A874285A2C9700408C5C /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A873285A2C9700408C5C /* NotificationCell.swift */; };
 		D627A876285A2CB200408C5C /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A875285A2CB200408C5C /* SwitchCell.swift */; };
+		D627A878285A2CCE00408C5C /* ArrowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A877285A2CCE00408C5C /* ArrowCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D627A871285A2C0E00408C5C /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		D627A873285A2C9700408C5C /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		D627A875285A2CB200408C5C /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		D627A877285A2CCE00408C5C /* ArrowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D627A871285A2C0E00408C5C /* Images.swift */,
 				D627A873285A2C9700408C5C /* NotificationCell.swift */,
 				D627A875285A2CB200408C5C /* SwitchCell.swift */,
+				D627A877285A2CCE00408C5C /* ArrowCell.swift */,
 			);
 			path = "TableView-project";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				D627A872285A2C0E00408C5C /* Images.swift in Sources */,
 				D627A876285A2CB200408C5C /* SwitchCell.swift in Sources */,
 				D627A85E285A2B0B00408C5C /* SceneDelegate.swift in Sources */,
+				D627A878285A2CCE00408C5C /* ArrowCell.swift in Sources */,
 				D627A874285A2C9700408C5C /* NotificationCell.swift in Sources */,
 				D627A870285A2C0A00408C5C /* ContentArray.swift in Sources */,
 			);
